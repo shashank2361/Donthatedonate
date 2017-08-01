@@ -1,0 +1,534 @@
+/* CSS RESET SECTION
+------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main,video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html, body{  width: 100%;  height: 100%;  }
+
+
+/*General section*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.inner{
+        width: 1050px;
+        margin: 0 auto;
+
+        padding: 10px;
+}
+
+
+.wrapper{
+
+}
+
+
+
+/*==========================header*/
+header{
+
+    padding-top: 44px;
+    background-color: white;
+  
+     
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray ;
+}
+
+.search{
+    font-family: "MetaCompPro-BoldRegular",Arial,Helvetica,sans-serif;
+    width: 210px;
+
+    padding-top: 65px;  
+    text-align: center;
+  
+    font-size: 1.4em;
+}
+
+.search button{
+    background-image: url("../img/blue-search-button.png");
+    float: right;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+    display: block;
+    background-color: #fff;
+
+}
+
+
+
+search .search-input{
+    border: 0px;
+    color: #7F7F7F;
+    background-color: #F2F3F5;
+    height: 26px;
+     
+    
+}
+
+input, textarea {
+    font-family: "MetaCompPro-NormalRegular",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+.donateBox{
+    
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #feb913;
+    text-align: center;
+    padding :70px 60px 20px;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+.donateBox a{
+    text-decoration: none;
+}
+
+.donateBox a:hover{
+    color: white;
+}
+
+
+.donateBox:hover{background-color: #feb999;}
+ 
+
+.navigation {
+    display: flex;
+    margin-top: 12px;
+   
+    padding-top: 16px;
+    padding-bottom: 10px;    
+    border-bottom:5px solid gray;
+    text-transform: capitalize;
+   
+}
+.primeNav ul{
+    display: flex;
+    width: 555px;
+    flex-direction: row;
+    
+}
+
+
+.primeNav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #6d6e72; 
+    font-weight: bold;
+    font-size: 100%;
+   
+    justify-content: space-between;
+    padding: 6px;
+    
+
+}
+.secondryNav ul{
+ 
+    display: flex;
+    width: 430px;
+    flex-direction: row;
+
+}
+
+.secondryNav a{
+
+    list-style-type: none;
+    font-family:  Arial,Helvetica,sans-serif;
+    color: #6d6e72;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 80%;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left:    40px;
+    
+    
+    font-size: 87.5%;
+
+}
+
+.social {
+    padding-top: 2px;
+    text-align: right;
+
+    
+     
+}
+
+
+/*=====================Main*/
+
+
+.container {
+background-color: white;
+    
+}
+
+.innerSlide{
+    background-color: aquamarine;
+    width:1150px;
+    position: relative;
+    margin: 0 auto;
+ 
+    
+}
+
+.innerSlide h2{
+    color: #fff;
+    font-weight: bold;
+    font-family: "MetaCompPro-blackRegular",Arial,Helvetica,sans-serif;
+    letter-spacing: -1px;
+    font-size: 57px;
+    line-height: 1;
+    margin-bottom: 4px;
+
+    
+}
+     
+  
+.text {
+    
+    
+    /*background: hsl(0,0%,50%) url("chrome://global/skin/media/imagedoc-lightnoise.png");*/
+    background: url("../img/text-background.png")top left;
+    width: 432px;
+    position: absolute;
+    top: 58px;
+    left: 73px;
+    padding: 33px;
+    display: block;
+    line-height: 1.2; 
+    overflow: hidden;    
+    opacity: 0.9;
+    filter: inherit;
+    
+}
+
+a.button {
+    color: #fff;
+    font-family: "MetaCompPro-BoldRegular",Arial,Helvetica,sans-serif;
+    font-size: 1.1em;
+    background-color: #00adee;
+    text-decoration: none;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 24px;
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+    
+     
+    min-width: 102px;
+
+    
+
+}
+.desc{
+
+    display: block;
+    line-height: 1.2;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -1px;
+    overflow: hidden;
+    display: block;
+ 
+    
+}
+ 
+.bigpics{
+    margin: 0 auto;
+    position: absolute;
+    z-index: 10;
+  
+}
+
+.button-left {    
+    position: absolute;
+    top:280px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 60;
+}
+.button-right {
+    
+    position: absolute;
+    
+    top:280px;
+    right: 0px;
+    opacity: 0.5;
+    z-index: 60;
+}
+
+/*
+
+.subcontent{
+    
+    padding-top: 600px;
+    margin-top:   600px;
+    
+    display: inline-block;
+    margin: 0 ,auto;
+    width= 800px;
+}
+
+*/
+
+.bottomimage {
+    position: relative;
+    padding-top: 770px;
+    margin-top: 1000px;
+    width: 1150px; 
+    margin: 0 auto;
+    background-image: url("../img/bottom-bg.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: white;
+    height: 500px;
+    z-index: 2;
+
+     
+}
+
+
+.bottomimage h2{
+    font-family:  "MetaCompPro-NormalRegular",Arial,Helvetica,sans-serif;
+    display: block;
+    width: 80%;
+    position: absolute;
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff;
+    left: 100px;
+    top : 580px;
+    z-index: 20;
+
+}
+
+
+.bottomimage a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 710px;
+    vertical-align: top;
+   
+}
+
+ 
+
+.secContainer {
+    position: relative;
+    
+    width: 1050px;
+    
+    margin: 0 auto;
+    margin-top: -410px;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    
+    vertical-align: baseline;
+    display: block;
+    z-index: 30;
+    padding-bottom: 30px;
+}
+
+
+.secContainer h2{
+    font-family:  "MetaCompPro-NormalRegular",Arial,Helvetica,sans-serif;
+    color: #00aeef;
+    font-size: 3.3em;
+    line-height: 1.05;
+    letter-spacing: 0px;
+    font-weight: normal;
+    padding: 5px;
+    border-bottom: 5px solid #b6b6b8;
+    white-space: pre-line;
+}
+
+.grid{
+     
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-top: 12px;
+    white-space: normal;
+    padding-bottom: 40px;
+    width : 1050px;
+    
+}
+.grid00text{
+    width :95%;
+    padding-top: 20px;
+    font-family: "MetaCompPro-blackRegular",Arial,Helvetica,sans-serif;
+}
+
+.grid00 {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 33%;
+    text-decoration: none;
+}
+
+.grid00 a{
+    text-decoration: none;
+    color: #00aeef;
+    
+}
+.grid01{
+    
+    margin-right: 7%;
+}
+
+.grid00 h3{
+    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 5px;
+
+    
+}
+
+.grid00 p{
+    color :#6d6e72;
+    padding-bottom: 10px;
+}
+
+.lastpart{
+    font-family: "MetaCompPro-blackRegular",Arial,Helvetica,sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.lastpart part01{
+    width: 700px;
+    left: 0px;
+    
+    margin-bottom: 5px;
+    
+    
+}
+
+.lastpart .part01 h3{
+    color: #00aeef;
+      width: 650px;
+    font-size: 22px;
+    line-height: 24px;
+    border-bottom: 5px solid #b6b6b8;
+    
+}
+
+.lastpart .part01 a{
+    text-decoration: none;
+    margin-left: 210px;
+        color: #00aeef;
+    font-size: 18px;
+    line-height: 24px;
+}
+.twitterlogo{
+    margin-left: 8px;
+    
+}
+.lastpart part02{
+    margin-right: 1px;
+}
+
+
+
+
+.twitter-timeline{
+    text-decoration: none;
+}
+
+
+.lastpart part03{
+    width: 30%;
+    border-bottom: 5px solid #b6b6b8;
+
+}
+
+
+.lastpart part03{
+     
+   
+    display: block;
+    border-bottom: 5px solid #b6b6b8;
+
+}
+.lastpart h3{
+     width: 300px;    
+      color: #00aeef;
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: 5px solid #b6b6b8;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: -1px;
+    margin-bottom: 20px;
+}
+
+/*================footer=============*/
+
+footer {
+    margin-top: 2px;
+    background-image: url(../img/footer-bg.jpg);
+    max-height: 500px;
+}
+
+.footerInner{
+    width: 1050px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+.footerOne{
+    
+    margin-top: 20px;
+    
+}

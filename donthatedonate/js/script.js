@@ -34,12 +34,4 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
-
-     
-/*const x = document.getElementById("iddonatebox")
-x.addEventListener("click", donatebox);
  
- function donatebox(){
-     alert("aasas");
-     
- }*/
